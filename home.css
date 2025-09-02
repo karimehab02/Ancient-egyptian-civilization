@@ -14,7 +14,7 @@
     }
 
     .main-bg {
-      background: url('background.jpeg');
+      background: url('media/background.jpeg');
       background-size: cover;
       padding-bottom: 2rem;
       flex-grow: 1;
@@ -196,7 +196,16 @@
       font-weight: 600;
       color: #7f5c13;
       letter-spacing: 0.03rem;
+      
     }
+      .topic a {
+      text-decoration: none;
+      
+      }
+
+      .topic a p:hover {
+      color: #a46f13;
+      }
 
    
     .button-container {
