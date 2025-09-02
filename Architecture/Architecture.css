@@ -1,0 +1,254 @@
+body {
+    font-family: 'Irish Grover', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    color: #333;
+}
+
+/* Header with background image */
+header {
+    background: url('BG.jpg') center/cover no-repeat;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #603515;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    opacity: 90%;
+} 
+
+
+/* Nav bar */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(234, 214, 178, 1);
+    padding: 0.7rem 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5b3a1a;
+    width: 100%;
+    position: fixed;
+}
+
+nav img {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+nav a {
+    color: #5b3a1a;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a46f13;
+}
+
+nav .spacer {
+    flex-grow: 1;
+}
+
+/* Header text */
+header h1 {
+    font-size: 2.5rem;
+    margin: 20px 0 10px;
+    
+}
+
+header p {
+    max-width: 700px;
+    font-size: 1.1rem;
+    color: #894E21;
+    font-style: bold;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Section container */
+.pharaohs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Pharaoh item */
+.pharaoh {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.pharaoh-video {
+    width: 900px;
+    height: 490px;
+    border-radius: 30px;
+    object-fit: fill;
+    border: 3px solid #d4a017;
+    display: block;
+    margin: 0 auto;
+}
+
+.pharaoh img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 3px solid #d4a017;
+    display: block;
+    margin: 0 auto;
+}
+
+.pharaoh p {
+    flex: 1;
+}
+
+.pharaoh-img p {
+    margin-top: 8px;
+    color: #DAA967;
+    font-size: larger;
+}
+
+.pharaoh-text {
+    flex: 1;
+    background-color: rgba(218, 169, 103, 1);
+    border-radius: 20px;
+    height: 200px;
+    padding: 10px 30px;
+    font-size: larger;
+    
+}
+
+.pharaoh-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* space between images */
+    margin: 40px 0;
+}
+
+.pharaoh-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pharaoh-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d4a017;
+    margin-bottom: 8px;
+}
+
+nav .logo img {
+    height: 50px;
+    border-radius: 50%;
+    width: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+.header {
+    background-color: rgba(218, 169, 103, 0.5);
+    height: 100px;
+    width: 700px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin-top: 130px; 
+}
+
+.paragraph {
+    background-color: rgba(249, 216, 176, 0.6);
+    height: 250px;
+    width: 700px;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 80px;
+}
+
+.pharaoh-video {
+    width: 900px;
+    height: 490px;
+    border-radius: 30px;
+    border: 3px solid #d4a017;
+    overflow: hidden; /* Ensures video corners are rounded */
+    display: block;
+    margin: 0 auto;
+}
+
+.pharaoh-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* or use 'fill' if you want to stretch */
+    display: block;
+}
+
+/* Footer gold bar and dotted line */
+.footer-gold-bar {
+    width: 100%;
+    height: 32px;
+    background: #b9952d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.footer-dotted-line {
+    width: 100%;
+    border-bottom: 5px dotted #4b4b82;
+    height: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #4b4b82;
+    color: #ffffff;
+    font-family: 'Irish Grover', cursive;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: lighter;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pharaoh {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pharaoh img {
+        margin-bottom: 15px;
+    }
+}

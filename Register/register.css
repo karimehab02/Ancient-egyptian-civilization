@@ -1,0 +1,192 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+  body {
+    margin-top: 60px;
+    background-color: #ddcda3;
+    font-family: 'inter', cursive;     
+    color: #663c00;
+    display: flex;
+     flex-direction: column;
+      justify-content: space-between;
+    align-items: center;
+  }
+
+  nav {
+      display: flex;
+      align-items: center;
+      background-color: rgba(234, 214, 178, 1);
+      padding: 0.7rem 2rem;
+      font-weight: 500;
+      font-size: 1rem;
+      color: #5b3a1a;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    nav img {
+      width: 50px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #5b3a1a;
+      text-decoration: none;
+      margin-right: 20px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #a46f13;
+    }
+
+    nav .spacer {
+      flex-grow: 1;
+    }
+
+  .container {
+    margin-top: 30px;
+    background-color: #ddcda3;
+    border: 2px solid #c9a83d;
+    border-radius: 15px;
+    padding: 30px 40px 40px;
+    width: 450px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Irish Grover";
+  }
+  
+  .logo {
+    margin: 0 auto 12px auto;
+    width: 120px;
+    height: 120px;
+    background-image: url('eye.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    box-shadow: inset 0 0 10px #c9a83d;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+
+  p.subtitle {
+    font-weight: 500;
+    margin: 0 0 7px;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+  }
+
+  .underline {
+    border-bottom: 3px solid #c9a83d;
+    width: 330px;
+    margin: 25px auto 35px;
+  }
+  
+  form {
+    text-align: left;
+    
+  }
+  
+  .input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .input-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
+
+  input[type="text"], input[type="password"] , input[type="email"] {
+    flex-grow: 1;
+    font-family: 'Irish Grover', cursive;
+    padding: 10px 12px;
+    font-size: 20px;
+    border: 2px solid #d4b64f;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  input::placeholder {
+    color: #b1a08a;
+  }
+  input:focus {
+    border-color: #c9a83d;
+  }
+
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+  input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  button {
+    width: 100%;
+    background-color: #d4b64f;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 0;
+    color: #5f3a00;
+    font-family: 'Irish Grover', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c9a83d;
+  }
+
+  .links {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .links a {
+    color: #663c00;
+    text-decoration: none;
+    display: block;
+    margin: 3px 0;
+  }
+  .links a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-line {
+    border-top: 1px solid #7a4f00;
+    margin-bottom: 15px;
+  }
+  .footer-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5c3700;
+  }

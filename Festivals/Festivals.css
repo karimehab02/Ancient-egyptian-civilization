@@ -1,0 +1,224 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Irish Grover';
+        background-color: #fdf6f0;
+        color: #7a603a;
+      }
+
+    nav {
+      display: flex;
+      align-items: center;
+      background-color: rgba(234, 214, 178, 1);
+      padding: 0.7rem 2rem;
+      font-family: 'sans-serif';
+      font-weight: 500;
+      font-size: 1rem;
+      color: #5b3a1a;
+      width: 100%;
+      position: fixed;
+      top: 0;      
+      left: 0;    
+      
+    }
+
+    nav img {
+      width: 50px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #5b3a1a;
+      text-decoration: none;
+      margin-right: 20px;
+
+    }
+
+    nav a:hover {
+      color: #a46f13;
+    }
+
+    nav .spacer {
+      flex-grow: 1;
+      height:0;
+    }
+
+
+main {
+  max-width: 1000px;
+  margin: 40px auto 60px;
+  padding: 0 20px;
+}
+
+
+
+.contact-header {
+  position: relative;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: visible;
+  padding-bottom: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  
+}
+.contact-header::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-top: 1px dashed #364579;
+  position: absolute;
+  top: -18px;
+  left: 0;
+  height: 0;
+  box-sizing: border-box;
+}
+
+.contact-section-box {
+  border: 3px solid #D49908;
+  border-radius: 16px;
+  padding: 32px 24px;
+  background-color: #D49908;
+  color: #2C3E50;
+  max-width: 1050px;
+  margin: 100px auto 60px;
+  
+}
+
+.contact-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.3;
+}
+
+.contact-subtitle span {
+  font-weight: 900;
+}
+
+
+.contact-columns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.container {
+    border: 3px solid #D49908;
+    border-radius: 30px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+.intro-section h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    border-bottom: 2px solid #D49908;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.intro-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-family: sans-serif;
+}
+
+.team-section {
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 3px solid #D49908;
+    padding: 20px;
+    
+}
+.blocks {
+   display: flex;
+  flex-wrap: wrap;       
+  gap: 20px;             
+  justify-content: center;
+}
+
+.team-section h2 {
+    
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #D49908;
+    border-bottom: 2px solid #D49908;
+    padding-bottom: 10px;
+}
+
+.festival-box {
+  border: 1px solid #D49908;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px 20px;
+  width: 300px;          
+  margin-left: 0
+    
+    
+}
+
+.festival-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    
+}
+
+.festival-box p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: black;
+}
+
+footer {
+  background-color: #364579;
+  color: white;
+  font-family: 'Irish Grover', cursive;
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 60px;
+}
+.footer-gold-bar {
+  width: 100%;
+  height: 32px; 
+  background: #D49908;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-dotted-line {
+  width: 100%;
+  border-bottom: 2px dotted #4b4b82;
+  height: 0;
+}
+
+footer span {
+  font-weight: bold;
+  color: white;
+}
+

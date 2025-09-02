@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        
+            nav {
+            display: flex;
+            align-items: center;
+            background-color: rgba(234, 214, 178, 1);
+            padding: 0.7rem 2rem;
+            font-weight: 500;
+            font-size: 1rem;
+            color: #5b3a1a;
+            width: 100%;
+            position: fixed;   
+            top: 0;            
+            left: 0;           
+                
+            }
+
+    nav img {
+      width: 50px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #5b3a1a;
+      text-decoration: none;
+      margin-right: 20px;
+      
+    }
+
+    nav a:hover {
+      color: #a46f13;
+    }
+
+    nav .spacer {
+      flex-grow: 1;
+    }
+
+        body {
+        padding-top: 70px; 
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: wheat;
+
+        }
+
+section {
+    padding: 30px 20px;
+    border: 2px solid #D49908;
+    border-radius: 8px;
+    margin: 40px 0;
+    background-color: white;
+    position: relative;
+    font-family: 'Irish Grover';
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+    width: 30px;
+    background-color: #D49908;
+    border: 2px solid #D49908;
+    border-radius: 50%;
+}
+
+section h2 {
+    color: #D49908;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #D49908;
+}
+
+section#about {
+    background-color: #D49908;
+    color: #2C3E50;
+    border-radius: 0%;
+    text-align: center;
+}
+
+section#about::before {
+    display: none;
+}
+
+section#about p {
+    margin-top: 10px;
+}
+
+section#mission p {
+    margin-top: 20px;
+    color: #2B3453;
+    width: 1300px;
+    font-family: sans-serif;
+}
+
+section#decree {
+    background-color: #34495E;
+    font-family: sans-serif;
+}
+
+section#decree::before {
+    display: none;
+}
+
+section#decree h2 {
+    border-bottom: none;
+
+}
+
+section#decree p {
+    color: white;
+    text-align: center;
+}
+
+section#council .cards{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+section#values .cards {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+section#council .cards .card,
+section#values .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    border-radius: 8px;
+    border: 2px solid #D49908;
+    padding: 50px;
+    flex-basis: 200px;
+}
+
+.img{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 4px;
+}  
+
+.card-title{
+font-size: larger;
+
+    text-align: center;
+}
+    .card-description{
+        margin-top: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+        .footer-gold-bar {
+        width: 100%;
+        height: 32px;
+        background: #D49908;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 60px;
+        }
+
+        .footer-dotted-line {
+        width: 100%;
+        border-bottom: 5px dotted #364579;
+        height: 0;
+        }
+        footer {
+        background-color: #364579;
+        color: white;
+        font-family: 'Irish Grover', cursive, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        padding: 20px 10px;
+        font-weight: lighter;
+        }

@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+/* Basic Resets and Body Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Irish Grover', cursive, serif;
+    background-color: #fdf6f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(234, 214, 178, 1);
+    padding: 0.7rem 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5b3a1a;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav img {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #5b3a1a;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a46f13;
+}
+
+nav .spacer {
+    flex-grow: 1;
+}
+
+/* Header Section */
+header {
+    background: url('Pyramids.jpg') center/cover no-repeat;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 2rem; /* Add some padding for smaller screens */
+}
+
+.header-content {
+    background-color: rgba(218, 169, 103, 0.65);
+    border-radius: 40px;
+    padding: 2rem 4rem;
+    width: 680px;
+    margin-bottom: 150px;
+}
+
+.subheader-content {
+    background-color: rgba(218, 169, 103, 0.34);
+    border-radius: 70px;
+    padding: 2rem 4rem;
+    width: 1100px;
+    margin-top: 150px;
+    color: #412912;
+}
+
+
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #894E21;
+    
+}
+
+header p {
+    font-size: 1.8rem;
+    margin: 10px 0 0;
+    font-family: sans-serif;
+
+}
+
+/* Main Content Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Pyramids Section */
+.pyramids-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    color: #894E21;
+}
+
+.pyramids-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pyramids-img {
+    border-radius: 18px;
+    width: 450px;
+    height: auto;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.pyramids-text h3 {
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #5a4c34;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.pyramids-text p {
+    font-family: sans-serif;
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.info-boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.info-box {
+    background-color: #f6e79c;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #5a4c34;
+    font-size: 0.9rem;
+    width: 45%;
+}
+#text{
+  font-family: sans-serif;
+}
+
+.info-box strong {
+    font-weight: 700;
+}
+
+/* Luxor Section */
+.luxor-section {
+    background-color: #fff6e9;
+    border-radius: 15px;
+    padding: 25px 35px;
+}
+
+.luxor-section h2 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+.luxor-content {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.luxor-text {
+    width: 55%;
+    font-family: 'Georgia', serif;
+    font-size: 0.95rem;
+    color: #2b1700;
+}
+
+.luxor-text h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.luxor-text p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.luxor-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.luxor-text li {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.luxor-img {
+    width: 40%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Abu Simbel Section */
+.abu-simbel-section {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.abu-simbel-section h2 {
+    margin-bottom: 10px;
+}
+
+.abu-simbel-section .description {
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+.abu-simbel-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.abu-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+    width: 340px;
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+}
+
+.abu-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.abu-card .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    color: #fff;
+    text-align: center;
+    padding: 16px 8px 10px 8px;
+}
+
+.abu-card h3 {
+    margin: 0;
+    color: #a46f13;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+.footer-gold-bar {
+    width: 100%;
+    height: 32px;
+    background: #b9952d;
+    
+}
+
+.footer-dotted-line {
+    width: 100%;
+    border-bottom: 5px dotted #4b4b82;
+    height: 0;
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #4b4b82;
+    color: #ffffff;
+    font-family: 'Irish Grover', cursive, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: lighter;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .pyramids-content,
+    .luxor-content,
+    .abu-simbel-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pyramids-img,
+    .luxor-img,
+    .luxor-text,
+    .info-box {
+        width: 100%;
+    }
+}

@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+
+  body {
+    margin: 0;
+    background-color: #ddcda3; 
+    font-family: 'Irish Grover', cursive;
+    color: #663c00;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+
+
+nav {
+            display: flex;
+            align-items: center;
+            background-color: rgba(234, 214, 178, 1);
+            font-weight: 500;
+            font-size: 1rem;
+            color: #5b3a1a;
+            width: 100%;
+            position: fixed;
+            
+          
+    }
+
+    nav img {
+      width: 50px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #5b3a1a;
+      text-decoration: none;
+      margin-right: 20px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #a46f13;
+    }
+
+    nav .spacer {
+      flex-grow: 1;
+    }
+    nav .logo img {
+            height: 50px;
+            border-radius: 50%;
+            width: auto;
+        }
+
+  .container {
+    margin-top: 150px;
+    background-color: #ddcda3;
+    border: 2px solid #c1a23f;
+    border-radius: 20px;
+    width: 340px;
+    padding: 40px 30px 50px 30px;
+    text-align: center;
+    height: 500px;
+  }
+
+
+  .logo {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px auto;
+    background-image: url('eye.JPG');
+    
+    background-position: center;
+    background-size: 90px 90px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin: 10px 0 4px 0;
+  }
+
+  p.subtitle {
+    font-size: 14px;
+    margin: 5px 0 15px 0;
+  }
+
+  
+  .underline {
+    width: 75px;
+    height: 2.5px;
+    background-color: #5c3a0c;
+    margin: 0 auto 30px auto;
+  }
+
+  .input-wrapper {
+    display: flex;
+    margin-bottom: 25px;  
+    align-items: center;
+  }
+  
+   .input-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+
+  }
+
+  input[type="email"] {
+  width: 100%;
+  padding: 10px 10px; 
+  font-family: 'Irish Grover', cursive;
+  font-size: 14px;
+  border: 2px solid #c6a839;
+  border-radius: 8px;
+  outline: none;
+}
+
+  input[type="email"]::placeholder {
+    color: #b69e75;
+  }
+
+  button {
+    width: 100%;
+    background-color: #c6a839;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0;
+    font-family: 'Irish Grover', cursive;
+    font-size: 20px;
+    color: #5c3a0c;
+    font-weight: 700;
+
+  }
+  button:hover {
+    background-color: #b59f34;
+  }
+
+  .login-text {
+    margin: 20px 0 8px 0;
+    font-size: 14px;
+  }
+
+  .login-text a {
+    color: #5c3a0c;
+    text-decoration: none;
+    font-weight: 600;
+ 
+  }
+  .login-text a:hover {
+    text-decoration: underline;
+  }
+
+  .journey {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #a7833c;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    font-size: 14px;
+    color: #5c3a0c;
+  }

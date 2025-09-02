@@ -1,0 +1,231 @@
+
+body {
+            
+    font-family: 'Irish Grover';
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6f0;
+    color:#5b3a1a;
+}
+
+       
+header {
+    background: url('artsbackground.jpg') center/cover no-repeat;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    color: #5b3a1a;
+    text-align: center;
+    position: relative;
+}
+
+        
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(234, 214, 178, 1);
+    padding: 0.7rem 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5b3a1a;
+    width: 100%;
+    position: fixed;
+    font-family: 'sans-serif';
+}
+
+nav img {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #5b3a1a;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+nav .logo img {
+    height: 50px;
+    border-radius: 50%;
+    width: auto;
+}
+
+nav a:hover {
+    color: #a46f13;
+}
+
+nav .spacer {
+    flex-grow: 1;
+}
+       
+header h1 {
+    font-size: 2.5rem;
+    margin: 20px 0 10px;
+            
+    }
+
+header p {
+    max-width: 700px;
+    font-size: 1.1rem;
+           
+}
+
+        
+.pharaohs {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.pharaohs_arts {
+    display: flex;
+    flex-direction: row;      
+    gap: 100px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center; 
+}
+
+           
+
+       
+.pharaoh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 340px;
+}
+
+.pharaoh img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pharaoh-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 3px solid #d4a017;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.pharaoh p {
+    flex: 1;
+}
+
+.pharaoh-img p {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #5b3a1a;
+    text-align: center;
+}
+
+.pharaoh-text {
+    flex: 1;
+    background-color: rgba(249, 216, 176, 0.50);
+    border-radius: 20px;
+    min-height: 120px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+            
+}
+
+
+.header {
+    background-color: rgba(249, 216, 176, 0.50);
+    border-radius: 5px;
+    height: 100px;
+    width: 700px;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+
+.paragraph {
+    background-color: rgba(249, 216, 176, 0.50);
+    height: 150px;
+    width: 700px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px; 
+    font-family: sans-serif;
+}
+.paragraph-small {
+    height: 60px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.below-small-rectangle {
+display: block;
+margin: 24px auto 0 auto;
+width: 400px;
+height: 200px;
+border-radius: 70px; 
+}
+
+li{
+    text-align: left;
+    margin-left: 30px;
+}
+
+        
+.footer-gold-bar {
+    width: 100%;
+    height: 32px;
+    background: #b9952d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.footer-dotted-line {
+    width: 100%;
+    border-bottom: 5px dotted #4b4b82;
+    height: 0;
+}
+
+     
+footer {
+    background-color: #4b4b82;
+    color: #f8eed5;
+    font-family: 'Irish Grover', cursive, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+ 
+  
